@@ -1,0 +1,17 @@
+/* SkillsAnimation.css */
+.skills-section {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 0.5s, transform 0.5s;
+  }
+  
+  .skills-section.visible {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  
+  .skill {
+    /* Add your skill styling here */
+    margin: 5px 0;
+  }
+  
